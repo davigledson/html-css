@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <style>body{font-family: Arial, Helvetica, sans-serif;}
+    
+    a{color: red;text-decoration: none;}
+    a:hover{color: black;text-decoration: underline;}
+    a:active{color: yellow;}
+    /*  SELETORES PERSONALIZADOS
+        #  = id
+        .  = class
+        :  =  pseudo-class
+        :: = pseudo-element
+        >children / filho
+
+    
+    
+    
+    */
+    a::before{content: " ↠ ";}
+    a::after{content: " ↞ ";}
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+    <li><a href="https://www.google.com.br/" rel="external" target="_blank">google</a></li>
+    <li><a href="https://translate.google.com.br/?hl=pt-BR" target="_blank">google tradutor</a></li>
+    <li><a href="https://www.youtube.com/" target="_blank">Youtube</a></li>
+</ul>
+</body>
+</html>

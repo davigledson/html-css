@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imagens dinâmicas</title>
+</head>
+<body>
+    <h1>imagens dinâmincas</h1>
+    <p>tente abrir esse site em varios dispositivos diferentes ou simplemente aumente e diminuar o tamanho do seu  navegador</p>
+    <p>CUIDADO! A ORDEM O SOURCE IMPORTA! sempre ordem crescente</p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/m.png" type="image/png"><img src="imagens/g.png" alt="imagem flexível">
+    
+    </picture>
+
+    <h1>reproduzindo Áudio</h1>
+    <p>Vamos parender a reproduzir audios em HTML5</p>
+    <audio src="midia/EineKleineNachtmusik(by Mozart)-Mozart.mp3" controls autoplay>
+    <!--MP3 WAV OGG-->
+    <!--Outra maneira, mais eficiente-->
+        <source src="midia/EineKleineNachtmusik(by Mozart)-Mozart.mp3" type="audio/mpeg">
+        <source src="midia/EineKleineNachtmusik(by Mozart)-Mozart.ogg" type="audio/ogg">
+        <source src="midia/EineKleineNachtmusik(by Mozart)-Mozart.way" type="audio/way">
+        <p>infelizmente seu navegador não consegue reproduzir audio <a href="midia/EineKleineNachtmusik(by Mozart)-Mozart.mp3" rel="download">clique aqui para baixa o arquivo mp3</a></p>
+    </audio>
+</body>
+</html>
