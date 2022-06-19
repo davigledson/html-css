@@ -6,3 +6,6 @@ ctrl + espaço em link/imagems = escolher liks/imagems com maior precisão
 
 Uma dica de emmet para envelopar de forma rápida todas as li's' já com a tag abbr:
 Comando - CTRL + SHIFT + P , Enter , li*>abb
+
+
+UMA DICA para quem quer COMENTAR de um jeito RÁPIDO. Selecione o texto ou a palavra e tecle "SHIFT+ALT+A".
