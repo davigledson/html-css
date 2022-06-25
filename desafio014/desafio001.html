@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>desafio das tabelas (parte 2 de verdade)</title>
+    <style>
+        
+        table{width: 400px;border-collapse: collapse;margin: auto;}
+        th,td{padding: 10px;border: solid black 1px;text-align: center;}
+        thead{background-color: lightslategray;}
+        
+        .impo{background-color: lightslategray;text-align: left;}
+        
+    </style>
+</head>
+<body>
+    <h1 style="text-align:center">tabelas</h1>
+ 
+        
+    <table>
+        <thead>
+            
+                <tr>
+                    <th  rowspan="2">área</th>
+                    <th scope="row" rowspan="2">disciplinas</th>
+                    <th scope="rowgroup" colspan="2">notas</th>
+                    <th scope="row" rowspan="2">Média</th>
+            
+                </tr>
+            <tr>
+                <td>notas 1</td>
+                <td>notas 2</td>
+            
+            </tr>
+        </thead>
+        <tr>
+            <th scope="colgroup" rowspan="4">Exatas</th>
+            <td>Matemática</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>Física</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+         
+        </tr>
+        <tr>
+            <td>Quimica</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+           
+        </tr>
+        <tr>
+            <td>Biologia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            
+        </tr>
+        <tr>
+            <td class="impo"  colspan="4" >medias das exatas</td>
+
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <th scope="colgroup" rowspan="2">humanas</th>
+            <td>historia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+        </tr>
+        <tr>
+            <td>geografia</td>
+            <td>0.0</td>
+            <td>0.0</td>
+            <td>0.0</td>
+           
+        </tr>
+        <tr>
+            <td colspan="4" class="impo">medias das humanas</td>
+            <td>0.0</td>
+           
+        </tr>
+
+    </table>
+</body>
+</html>

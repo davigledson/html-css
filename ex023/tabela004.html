@@ -7,7 +7,7 @@
     <title>tabela</title>
     <style>
         table{border-collapse: collapse;width: 400px;height: 20px;}
-        td{border: 1px black solid;padding: 10px;text-align: center;}
+        td,th{border: 1px black solid;padding: 10px;text-align: center;}
     </style>
 </head>
 <body>
@@ -16,12 +16,12 @@
     <table>
         <tr>
             <td>A</td>
-            <td colspan="2">B</td>
+            <th colspan="2" scope="colgroup"><strong>filmes</strong></th>
             
         </tr>
         
         <tr>
-            <td rowspan="3">D</td>
+            <th rowspan="3" scope="rowgroup"><strong>nomes</strong></th>
             <td>E</td>
             <td>F</td>
         </tr>
