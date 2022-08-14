@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, datalist e textarea em HTML</title>
+</head>
+<body>
+    <h1>Select, datalist e textarea em HTML</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="ies">Estado:</label>
+            <select name="es" id="es">
+                <optgroup label="Região Sudeste">
+                    <option selected value="Es">--- Escolha ---</option>
+                    <option value="RJ">Rio de Janeiro</option>
+                    <option value="MG">Mina Gerais</option>
+                    <option value="SP">São Paulo</option>
+                </optgroup>
+
+                <optgroup label="Região Nordeste">
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="MA">Maranhão</option>
+                    <option value="PE">Pernambuco</option>
+                </optgroup>
+            </select>
+        </p>
+
+        <p>
+            <label for="iprof">Profissão:</label> 
+            <input type="text" name="prof" id="iprof" list="listprof">
+            
+            <datalist id="listprof">
+                <option value="Adm">Administrador</option>
+                <option value="Pro">Programador</option>
+                <option >Contabilista</option>
+                <option >Professor</option>
+            </datalist>
+            
+        </p>
+        <p>
+            <label for="imen">Mensagem:</label><br>
+            <textarea name="men" id="imen" cols="30" rows="10"></textarea> <!--Quando usar o textarea sempre use o método POST, para não ter problema de limitação por causa dos 3000 bites-->
+        </p>
+        <p>
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+        </p>
+
+    </form>
+</body>
+</html>

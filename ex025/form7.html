@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos color, range e file em HTML</title>
+</head>
+<body>
+    <h1>Elementos color, range e file em HTML</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <p>
+            <label for="icon">Cor:</label>
+            <input type="color" name="cor" id="icon" value="#00ff00">
+        
+        </p>
+        <p>
+            <label for="inivel">Nível de Satisfação:</label>
+            <input type="range" name="nivel" id="inivel" min="1" max="5" value="2">
+        </p>
+        <p>
+            <label for="ifoto">Foto de Perfil:</label>
+            <input type="file" name="foto" id="ifoto">
+        </p> <!--Sempre que for usar elementos que passam de 3000 bites use o método POST-->
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
