@@ -7,8 +7,9 @@
     <title>Media Query - Menu responsivo com HTML5 e CSS3</title>
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="stilos/media-query.css">
 </head>
-<body>
+<body onresize="MudouTamanho()">
     <header>
         <h1>Meu site</h1>
         <span id="burguer" class="material-symbols-sharp" onclick="clickMenu()">
@@ -28,7 +29,7 @@
     
     <main>
         <article>
-                <h2>Testando Media Query</h2>
+                <h2>Testando Media Queries</h2>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic reiciendis in eveniet aspernatur, voluptate quas itaque ratione incidunt? Culpa, aliquid laboriosam. Magni eligendi ea quibusdam voluptatem quam doloribus atque vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, magni optio, soluta quam ipsa doloremque qui assumenda repellat, accusantium reprehenderit corrupti ipsum cupiditate rerum impedit aliquid quasi officiis velit non!</p>
 
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic reiciendis in eveniet aspernatur, voluptate quas itaque ratione incidunt? Culpa, aliquid laboriosam. Magni eligendi ea quibusdam voluptatem quam doloribus atque vero? Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, magni optio, soluta quam ipsa doloremque qui assumenda repellat, accusantium reprehenderit corrupti ipsum cupiditate rerum impedit aliquid quasi officiis velit non!</p>
@@ -37,6 +38,13 @@
         </article>
     </main>
     <script>
+        function MudouTamanho(){
+            if (window.innerWidth>= 768){
+                itens.style.display = 'block'
+            } else{
+                itens.style.display ='none'
+            }
+        }
 
         function clickMenu(){
             
