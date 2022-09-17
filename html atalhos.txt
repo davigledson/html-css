@@ -9,3 +9,5 @@ Comando - CTRL + SHIFT + P , Enter , li*>abb
 
 
 UMA DICA para quem quer COMENTAR de um jeito RÁPIDO. Selecione o texto ou a palavra e tecle "SHIFT+ALT+A".
+
+pressiona a tecla Windows + tecla para direita/esquerda. Divide a tela em duas partes :
