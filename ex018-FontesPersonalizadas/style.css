@@ -1,6 +1,9 @@
 @charset "UTF-8";
-
-body{font-family: Arial, Helvetica, sans-serif;
+@font-face {
+    font-family: 'Lover';
+    src: url(fontes/Lover.ttf);
+}
+body{font-family: 'Lover',Arial, Helvetica, sans-serif;
 font-size: 1em;
 /*Medidas Absolutas
 cm, mm, in, px, pt, pc
