@@ -15,3 +15,4 @@ pressiona a tecla Windows + tecla para direita/esquerda. Divide a tela em duas p
 /*CTRL + D = SELECIONAR PALAVRA REPEDIDA MAIS PRÓXIMA*/
 
 ALt + shift + f = para indentar o código
+ALT + seta para cima para mover o código
